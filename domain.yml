@@ -1,0 +1,357 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - ask_college_arts_and_science
+  - ask_college_pharmacy
+  - ask_college_institutions_info
+  - ask_college_engineering
+  - ask_college_polytechnic
+  - ask_college_fees
+  - ask_college_staff
+  - ask_college_courses_arts_and_science
+  - ask_college_courses_polytechnic
+  - ask_college_courses_engineering
+  - ask_college_courses_pharmacy
+  - ask_college_add_on_arts_and_science
+  - ask_college_add_on_pharmacy
+  - ask_college_add_on_engineering
+  - ask_college_add_on_polytechnic
+  - ask_college_faculty
+  - ask_college_laboratory_facilities
+  - ask_college_facilities
+  - ask_college_extracurricular
+  - ask_college_career_opportunities
+  - ask_college_admission_process
+  - ask_college_project
+  - ask_college_iv
+  - ask_college_location
+
+
+responses:
+  utter_greet:
+    - text: "Hello! Welcome to our college information chatbot. How can I assist you?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day!"
+  
+  utter_iambot:
+    - text: "i am a chatbot.provided by rasa."
+
+  utter_ask_college_arts_and_science:
+    - text: "Nirmala College of Arts and Science, located in Meloor, Chalakudy, Kerala, is a reputed institution affiliated with the 
+             University of Calicut. Established to provide quality education, the college offers a range of undergraduate and postgraduate
+             programs in arts, science, commerce, and computer applications. With modern infrastructure, including well-equipped laboratories, 
+             a library, and computer labs, the college provides a conducive environment for learning. It emphasizes the holistic development of
+             students through academics, extracurricular activities, and value-based education. Known for its commitment to academic excellence
+             and character building, Nirmala College is a preferred choice for students in the region seeking higher education opportunities."
+  utter_ask_college_pharmacy:
+    - text: "The Pharmacy Department at Nirmala College of Arts and Science, Meloor, is dedicated to offering quality education and training in 
+             pharmaceutical sciences. Focused on bridging the gap between theoretical knowledge and practical application, the department is equipped with 
+             state-of-the-art laboratories, modern equipment, and an extensive library to support advanced learning and research. The curriculum emphasizes 
+             pharmaceutical sciences, clinical practices, and industrial applications, preparing students for diverse career opportunities in healthcare, research, 
+             and the pharmaceutical industry. With experienced faculty and a commitment to innovation, the department fosters academic excellence and ethical practices, 
+             ensuring students are well-prepared to meet the demands of the healthcare sector. 
+             Please verify whether the Pharmacy Department exists within the institution, as program offerings can vary."
+  utter_ask_college_institutions_info:
+    - text: "Nirmala Institutions, located in Meloor, Chalakudy, Kerala, is a prominent educational group known for its commitment to
+            excellence in academics and holistic development. Comprising multiple institutions, including Nirmala College of Arts and Science, it
+            offers a wide range of undergraduate and postgraduate programs in arts, science, commerce, and computer applications. Affiliated with the 
+            University of Calicut, the institutions focus on providing quality education through a combination of modern infrastructure, skilled faculty, and 
+            a student-centered approach. Facilities include well-equipped laboratories, libraries, computer centers, and recreational amenities. With a strong 
+            emphasis on academic rigor, moral values, and skill development, Nirmala Institutions play a pivotal role in shaping the future of students in the 
+            Chalakudy region and beyond. For specific courses or programs, it's best to contact the institution directly or visit their official website."
+  utter_ask_college_engineering:
+    - text: "Nirmala College of Arts and Science, Meloor, does not have a dedicated Engineering Department, as it primarily offers programs in arts, science, 
+             commerce, and computer applications under the University of Calicut. However, the institution focuses on providing technical and skill-oriented education
+             through programs like Bachelor of Computer Applications (BCA) and other technology-related courses. These programs aim to equip students with essential 
+             technical knowledge and practical skills, preparing them for careers in IT and related fields. If you are specifically seeking engineering programs, it is
+             recommended to explore specialized engineering colleges in the region. For more details on the courses offered at Nirmala College, visiting their 
+             [official website](http://nirmalacollege.edu.in/) or contacting the administration is advised."
+  utter_ask_college_polytechnic:
+    - text: "Nirmala Institute of Technology, also known as Nirmala Polytechnic College, is located in Meloor, Chalakudy, Kerala. It offers a range of 
+             three-year diploma programs in engineering disciplines such as Chemical Engineering, Mechanical Engineering, Civil Engineering, and Automobile Engineering. 
+             The institute is equipped with modern laboratories, workshops, and a library to support practical learning and research. Affiliated with the State Board of 
+             Technical Education, Kerala, Nirmala Institute of Technology emphasizes both academic excellence and the holistic development of its students, preparing them 
+             for various roles in the engineering sector. For detailed information on admissions, courses, and facilities, prospective students can visit the official website 
+             or contact the administration directly."
+  utter_ask_college_fees:
+    - text: "The fee structure for various undergraduate courses at Nirmala College of Arts and Science, Meloor, Chalakudy, is structured affordably. 
+             Most programs like **B.Com**, **BBA**, **B.Sc. in Computer Science**, and **B.A. in Travel and Tourism** have an annual fee of ₹3,150. Specialized courses, 
+             such as **B.A. in Multimedia**, are slightly higher, with fees amounting to ₹1.44 lakh for the entire course duration. Additional charges for amenities, labs, 
+             or other services may apply, depending on the program selected. 
+             For detailed and updated information, it’s advisable to contact the college directly or visit their official website.
+             As of now, there is no verified information indicating that the Nirmala Institution in Meloor, Chalakudy, operates a dedicated Pharmacy Department
+             or offers pharmacy-related courses. The institution is primarily focused on arts, science, commerce, and technology programs, as offered through Nirmala 
+             College of Arts and Science and its associated institutions.
+             For clarity regarding pharmacy courses or related programs, it is recommended to contact the administration directly or explore nearby institutions 
+             offering diploma or degree courses in pharmacy.
+             The Polytechnic department of Nirmala Institute of Technology, Meloor, offers diploma programs across various engineering disciplines, 
+             including Civil, Mechanical, Electrical and Electronics, Automobile, and Chemical Engineering. Each program spans three years and includes six semesters. 
+             The annual fees are considered reasonable compared to other institutions in Kerala, with adjustments for eligible students under reservation categories 
+             through government e-grant systems.
+             The programs emphasize practical learning through state-of-the-art laboratories, and the institute provides modern facilities like hostels, libraries, 
+             and transportation. Admissions are based on prior academic performance, and the total intake capacity for all programs is 294 students annually. 
+             For detailed fee breakdowns and further admission-related inquiries, you may refer to the [official website](https://nirmalacollege.ac.in) or contact 
+             the institution directly."
+  utter_ask_college_staff:
+    - text: "Nirmala Institutions in Meloor, Chalakudy, employ a diverse and dedicated team of faculty and staff across its various departments. The faculty members 
+             at Nirmala College of Arts and Science are highly qualified and experienced, with many holding advanced degrees in their respective fields. The institution focuses
+             on maintaining a student-centered approach, ensuring that teaching methods are up-to-date and conducive to modern learning.
+             In addition to the academic staff, the institution also boasts a team of administrative personnel who handle admissions, student affairs, and other operational
+             aspects. The staff at Nirmala Polytechnic are well-trained to support the technical and vocational programs, fostering a hands-on learning environment in fields such 
+             as engineering and technology.
+             The college strives to maintain a balanced ratio of teaching to non-teaching staff, allowing for effective communication and a supportive learning environment 
+             for students. Moreover, the staff actively participates in extracurricular and co-curricular activities to ensure the holistic development of the students."
+
+  utter_ask_college_courses_arts_and_science:
+    - text: "Courses Offered at Nirmala College of Arts and Science, Meloor
+
+             Nirmala College of Arts and Science, located in Meloor, Thrissur, is renowned for its commitment to providing quality education and fostering the holistic development of its students. 
+             The college offers a wide array of undergraduate (UG) and postgraduate (PG) programs, catering to various interests and career aspirations.
+
+             Undergraduate Programs
+             The undergraduate courses at Nirmala College aim to provide a strong foundation in both traditional and modern disciplines.
+
+             1. Commerce:
+
+             B.Com General
+
+             B.Com with Computer Applications
+
+             B.Com with Finance
+             
+             2. Management:
+
+             Bachelor of Business Administration (BBA)
+
+             Bachelor of Tourism and Hotel Management (BTHM)
+
+
+
+             3. Computer Applications:
+
+             Bachelor of Computer Applications (BCA)
+             BSc Computer science
+
+
+
+             4. Science:
+
+             B.Sc in Costume and Fashion Designing
+
+             B.Sc in Hotel Management and Catering Science
+
+             B.Sc in Food Technology
+
+
+
+             5. Arts:
+
+             B.A in English Language and Literature
+
+             B.A in Multimedia
+
+             B.A in Tourism and Travel Management
+
+
+
+
+             These programs are designed to equip students with theoretical knowledge and practical skills, making them ready to face the challenges of their respective industries.
+
+             Postgraduate Programs
+             At the postgraduate level, the college offers specialized programs that focus on advanced learning and research opportunities.
+             1. Master of Commerce (M.Com) in Finance
+             2. Master of Travel and Tourism Management (MTTM)
+             These courses enable students to deepen their expertise and prepare for leadership roles in their chosen fields."
+
+  utter_ask_college_education:
+    - text: "Nirmala Institutions in Meloor, Chalakudy, offer a well-rounded educational experience across multiple fields, including arts, science, commerce, and 
+             technology. Nirmala College of Arts and Science provides undergraduate and postgraduate programs in disciplines such as commerce, computer applications, and 
+             humanities, emphasizing both theoretical knowledge and practical application. The faculty uses modern teaching methodologies and ensures students develop critical 
+             thinking and professional skills. Additionally, the institution promotes holistic development through extracurricular activities, workshops, and seminars.
+             Nirmala Polytechnic offers diploma programs in various engineering fields, including Civil, Mechanical, Electrical, and Chemical Engineering. These 
+             technical courses focus on hands-on learning, equipping students with the necessary skills for the industry. The institution's commitment to practical 
+             knowledge, coupled with its state-of-the-art labs and experienced faculty, ensures that students are well-prepared for careers in technical fields.
+             Both institutions prioritize character development, ethical practices, and social responsibility, creating an environment conducive to both personal 
+             and professional growth."
+  utter_ask_college_directors:
+    - text: "The management of Nirmala Institutions, Meloor, is driven by a vision of creating well-rounded individuals equipped with both knowledge and compassion.
+           The institution aims to mold responsible citizens who can contribute creatively to society. Nirmala Institutions, established in 1954, operates under 
+           the guidance of dedicated leadership, including a chairman who has emphasized the importance of education as a moral responsibility. This leadership is 
+           committed to enhancing the quality of life by offering a world-class educational environment, ensuring the best learning experiences for students across
+           various disciplines such as management, engineering, pharmacy, arts, science, and polytechnic.
+           In their mission, Nirmala Institutions also integrate innovation and entrepreneurship, collaborating with industries to provide students with 
+           opportunities for growth and real-world exposure. This proactive approach is further highlighted by their commitment to personality development and 
+           fostering employable graduates."  
+  utter_ask_college_add_on_arts_and_science:           
+    - text: "Nirmala College of Arts and Science, Meloor, provides several add-on courses across different disciplines, aimed at enhancing students' skills and 
+             boosting their career prospects. Below are some examples of the add-on courses offered in various departments:
+             1. **Department of Computer Applications**: The college offers advanced programming courses, web development, and software engineering skills.
+             These courses are designed to improve students' technical proficiency, making them industry-ready for software development roles.
+             2. **Department of Business Administration**: Add-on courses in entrepreneurship, business communication, and leadership development are available. 
+             These courses prepare students to become successful business leaders, with an emphasis on practical skills that complement their academic studies.
+             3. **Department of Costume and Fashion Designing**: This department provides industry-relevant add-on courses, such as fashion merchandising, pattern 
+             making, and digital design. These courses equip students with the practical skills required to enter the fashion industry with confidence.
+             4. **Department of Multimedia**: Add-on courses in graphic design, animation, and video editing are offered to students interested in pursuing 
+             careers in digital media. The focus is on enhancing creativity and technical abilities for roles in the media and entertainment industry.
+             5. **Department of Tourism Management**: The college offers specialized courses in travel and tour management, hospitality, and sustainable tourism.
+             These courses are aimed at preparing students for careers in the growing global tourism sector.
+             6. **Department of Food Technology**: Add-on courses in food processing, quality control, and food safety are provided, equipping students 
+             with the skills needed to enter the food industry, particularly in areas related to food innovation and safety standards.
+             These add-on courses are designed to complement the academic curriculum, giving students a competitive edge in their respective fields and preparing 
+             them for a variety of career opportunities. For more details, you can contact the college or visit their official website."
+  utter_ask_college_add_on_pharmacy:
+   - text: "As of now, Nirmala Institutions in Meloor, Chalakudy, do not appear to offer a dedicated Pharmacy College or any pharmacy-specific add-on courses.
+            The institution primarily offers programs in arts, science, commerce, and computer applications.  If you are looking for add-on courses related to
+            pharmacy or pharmaceutical sciences, it is recommended to explore nearby colleges that specialize in pharmacy education. Many institutions in Kerala 
+            offer diploma and degree courses in pharmacy, along with specialized add-on courses designed to enhance knowledge in drug development, clinical pharmacy, 
+            and pharmaceutical management. For more details, contacting the administration of Nirmala College directly or visiting their official website might
+            provide further clarity on the available programs."
+  utter_ask_college_add_on_engineering:
+    - text: "Nirmala Polytechnic, Meloor, which is part of Nirmala Institutions, offers several engineering diploma programs, but there is limited 
+             publicly available information about specific add-on courses for engineering students. The institution's focus is on providing practical and 
+             theoretical training through core engineering disciplines such as Civil, Mechanical, Electrical, and Automobile Engineering. Add-on courses 
+             may include industry-related certifications or skills-based programs like CAD, project management, or other technical training to enhance employability.
+             For more detailed and up-to-date information about add-on courses offered to students of Nirmala Polytechnic, it is recommended to contact the 
+             administration directly or visit the official website for insights into additional skill development opportunities available to engineering students.
+             These may include workshops, certifications, or collaborations with industry professionals designed to supplement the core engineering curriculum."
+  utter_ask_college_add_on_polytechnic:
+    - text: "Nirmala Polytechnic, Meloor, offers diploma programs in various engineering disciplines, including Civil, Mechanical, Electrical, and Automobile
+             Engineering. While detailed information about specific add-on courses is limited, the institution focuses on providing practical, hands-on 
+             training and industry-relevant skills alongside the core curriculum. These add-on courses may include certifications in areas like AutoCAD, project 
+             management, and other software tools that are essential in modern engineering fields. Workshops, seminars, and industry exposure programs are also
+             likely part of the educational experience, designed to complement the theoretical knowledge acquired in classrooms.
+             For precise details regarding the specific add-on courses available at Nirmala Polytechnic, it is best to contact the administration or visit 
+             their official website. These supplementary courses are often updated to align with industry trends and ensure students are job-ready upon graduation."
+  utter_ask_college_faculty:
+    - text: "The college employs qualified faculty members who are committed to providing quality education and fostering an engaging learning environment."
+  utter_ask_college_laboratory_facilities:
+    - text: "Nirmala Institutions in Meloor, Chalakudy, are well-equipped with modern laboratory facilities to support the academic and practical 
+             learning of students. Each department, including those in science, engineering, and technical programs, is supported by specialized labs 
+             designed to provide hands-on experience. For example, the **Department of Computer Science** offers computer labs equipped with the latest 
+             software and hardware to support learning in programming, networking, and software development. Similarly, the **Polytechnic** engineering
+             programs benefit from well-maintained workshops and labs in mechanical, electrical, and civil engineering, ensuring that students gain practical 
+             experience in their respective fields.
+             Other departments like **Food Technology** and **Costume and Fashion Designing** also provide dedicated labs for food processing and
+             fashion design, where students engage in practical projects and experiments. The labs are regularly updated to meet industry standards and give 
+             students exposure to the latest tools and technologies. These facilities play a crucial role in bridging the gap between theoretical knowledge and 
+             practical application, helping students enhance their skills and prepare for their professional careers. 
+             For more detailed insights into the specific labs and equipment available, you may reach out directly to Nirmala Institutions or explore their 
+             official website."
+  utter_ask_college_facilities:
+    - text: "Nirmala Institutions in Meloor, Chalakudy, offer a well-equipped and expansive campus designed to support both academic and extracurricular 
+             activities. The campus provides a range of facilities aimed at enhancing the student experience and promoting academic excellence.
+             1. **Academic Facilities**: The institution has modern classrooms with audio-visual aids, well-equipped laboratories for various departments 
+             such as Computer Science, Engineering, and Food Technology, and a dedicated library with an extensive collection of books, journals, and e-resources. 
+             These facilities ensure that students have access to the latest information and tools for their studies.
+             2. **Hostels and Accommodation**: Nirmala Institutions offer separate hostel facilities for male and female students, providing a safe and comfortable 
+             living environment. The hostels are equipped with essential amenities to support students during their academic journey.
+             3. **Sports and Recreation**: The campus also supports physical fitness and outdoor activities, with well-maintained sports facilities for 
+             activities like cricket, football, and volleyball. The institution encourages students to participate in sports and recreational events as
+             part of their overall development.
+             4. **Cafeteria and Dining**: A well-equipped cafeteria provides students with nutritious and affordable meals, creating a space for 
+             socializing and relaxation between classes.
+             5. **Transport**: The college provides transportation facilities, making it accessible for students from various parts of the region.
+             These facilities collectively ensure that Nirmala Institutions provide a conducive environment for academic learning, personal growth, and 
+             extracurricular engagement, making it a holistic place for students to thrive. For further information, you can explore the college's official website."
+  utter_ask_college_extracurricular:
+  - text: "Nirmala Institutions in Meloor, Chalakudy, encourage students to participate in a variety of extracurricular activities that complement their academic 
+           growth and promote holistic development. These activities are designed to enhance students' leadership, creativity, and teamwork skills while fostering 
+           a sense of community and social responsibility.
+           1. **Cultural Events**: The college regularly organizes cultural events and festivals, providing students with the opportunity to showcase their 
+           talents in music, dance, drama, and other performing arts. These events help students develop artistic skills and build confidence.
+           2. **Sports and Games**: Sports play a significant role in student life at Nirmala Institutions, with regular inter-college tournaments and 
+           sports days organized. Students engage in various indoor and outdoor sports such as football, volleyball, cricket, and badminton, promoting physical 
+           fitness and team spirit.
+           3. **Clubs and Associations**: The college has various clubs and student associations catering to different interests, such as a Literary Club, 
+           Science Club, and Entrepreneurship Development Club. These clubs allow students to participate in activities related to their academic and personal 
+           interests, from organizing seminars to participating in debates and workshops.
+           4. **Community Service and Social Responsibility**: Nirmala Institutions also focus on social outreach, encouraging students to engage in
+           community service activities such as blood donation camps, environmental awareness programs, and charity drives. These initiatives promote social 
+           responsibility and instill values of compassion and teamwork.
+           5. **Workshops and Competitions**: The institution organizes workshops and competitions in areas like art, technology, and business, 
+           allowing students to develop their skills and gain exposure to new fields. These activities also help students enhance their critical thinking 
+           and problem-solving abilities.
+           These extracurricular activities are an integral part of student life at Nirmala Institutions, ensuring that students not only excel academically
+           but also grow as well-rounded individuals."
+  utter_ask_college_career_opportunities:
+    - text: "Nirmala Institutions in Meloor, Chalakudy, provide various career opportunities for their students through a blend of academic excellence,
+             skill development programs, and industry collaborations. The college ensures that students are equipped with the necessary knowledge and practical 
+             experience to thrive in their chosen careers.
+             1. **Academic Career Pathways**: Nirmala Institutions offer a wide range of undergraduate and diploma programs, including in fields like business 
+             administration, computer applications, fashion designing, tourism, and engineering. Students can pursue careers in their respective fields such 
+             as corporate roles, technical positions, or entrepreneurship.
+             2. **Industry Collaborations**: The institution maintains strong links with various industries, ensuring that students receive
+             opportunities for internships, practical training, and placements. Collaborations with local and global companies help students gain 
+             real-world experience and improve their employability.
+             3. **Entrepreneurship Opportunities**: Through programs and workshops on entrepreneurship, Nirmala Institutions encourage students to develop 
+             their own business ideas and become job creators rather than job seekers. The institution’s business-oriented programs support students who wish 
+             to start their own ventures in diverse fields.
+             4. **Placement Services**: Nirmala Institutions have an active placement cell that works to connect students with potential employers. The 
+             placement cell organizes recruitment drives, interviews, and career counseling sessions to help students secure jobs after completing their courses.
+             5. **Skill Development Programs**: The college offers various add-on courses and workshops that focus on enhancing employable skills, such as
+             communication, problem-solving, and technical skills. These programs help students become well-rounded individuals, making them more attractive 
+             candidates to employers.
+             These efforts combined with the college's academic rigor and focus on extracurricular activities create an environment that promotes diverse 
+             career paths and opportunities for students to succeed in their professional lives. For further details, students can reach out to the college’s 
+             placement office or visit the official website."
+  utter_ask_college_admission_process:
+   - text: "The admission process at Nirmala Institutions in Meloor, Chalakudy, typically follows a structured procedure that involves the following steps:
+            1. **Eligibility Criteria**: The first step in the admission process is ensuring that the student meets the eligibility requirements for the chosen
+            program. For undergraduate programs, students must have completed their higher secondary education (12th grade) with the required marks. For diploma 
+            programs, a completion of secondary education (10th grade) may be needed.
+            2. **Application Form**: Prospective students must fill out an application form for the desired course. The forms are typically available online on the 
+            institution’s official website or can be obtained from the campus office.
+            3. **Entrance Exam (if applicable)**: Some programs may require students to appear for an entrance exam, especially for courses with high demand or in 
+            specialized fields. The entrance exam may be conducted by the institution or as per the state or university regulations.
+            4. **Document Submission**: Students are required to submit their academic certificates, proof of identity, and other relevant documents along with the
+            application form. These documents are reviewed as part of the admission process.
+            5. **Counseling and Interview**: In certain cases, there may be an interview or counseling session, particularly for professional programs. During this
+            stage, students may be assessed based on their academic performance, interests, and aptitude.
+            6. **Final Selection and Fee Payment**: After the completion of all formalities, the final list of selected candidates is announced. Once selected,
+            students must complete the fee payment process to confirm their admission.
+            For more specific details, such as deadlines and updates for the current academic year, it’s recommended to visit the official website of
+            Nirmala Institutions or contact the admission office directly."
+  utter_ask_college_project:
+    - text: "At Nirmala Institutions in Meloor, Chalakudy, students are encouraged to work on projects that integrate theoretical knowledge with practical 
+             applications, helping them develop problem-solving, critical thinking, and industry-related skills. The projects vary by department and are 
+             designed to align with the specific focus areas of each course. Below are some examples of projects offered by different departments:
+             1. **Engineering and Polytechnic Projects**: For students in engineering and polytechnic courses (such as Civil, Mechanical, and Electrical Engineering), 
+             projects often involve the development and testing of working models. For example, mechanical students might design and fabricate machinery prototypes, 
+             while electrical students could work on automation systems or renewable energy solutions. Civil engineering students often engage in projects related to 
+             construction materials or structural design, providing practical exposure to real-world engineering challenges.
+             2. **Computer Science Projects**: Students pursuing computer science courses might be tasked with projects related to software development, mobile 
+             applications, or data analytics. Common projects include developing websites, designing user-friendly software, or creating apps for various sectors
+             like education or healthcare. These projects aim to enhance programming, web development, and problem-solving skills.
+             3. **Fashion Designing Projects**: For students in fashion designing programs, projects may involve creating fashion collections, designing clothing 
+             or accessories, or experimenting with sustainable fashion. These projects give students a hands-on experience with design techniques, fabric selection,
+             and garment construction.
+             4. **Food Technology Projects**: Students in food technology work on projects related to food processing, product development, and quality control. 
+             Typical projects could involve developing new food products, researching food preservation techniques, or analyzing the nutritional value of various 
+             food items.
+             5. **Business Administration Projects**: Business students often work on projects that involve market research, creating business plans, or 
+             analyzing case studies of real-world companies. These projects help students understand business operations and prepare them for careers in management 
+             or entrepreneurship.
+             These projects are integral to the learning experience at Nirmala Institutions, fostering creativity, teamwork, and practical application
+             of knowledge. Each department tailors its projects to match the skills and knowledge required for the specific field, ensuring that students are 
+             well-prepared for their future careers. For detailed information about specific projects or current opportunities, students should reach out to their
+             respective departments."
+  utter_ask_college_iv:
+    - text: "Nirmala Institutions in Meloor, Chalakudy, regularly conduct a variety of extracurricular activities aimed at fostering holistic 
+             development among students. These activities include workshops, competitions, cultural events, and social initiatives. The NSS 
+             (National Service Scheme) unit, for example, organizes numerous community service projects, such as community cleaning drives in association with 
+             the local panchayat. The institution also hosts annual events like Emerge, a student fest that promotes creativity and team-building skills.
+             Additionally, different departments actively conduct competitions such as coding, video making, and art contests to engage students and enhance their 
+             practical skills. These events are part of the college's broader approach to preparing students for both academic and professional success while promoting 
+             a sense of responsibility and social awareness."
+  utter_ask_college_location:
+    - text: "Nirmala Institutions are located in Meloor, a small town in the Chalakudy region of Thrissur district, Kerala. The exact address is:
+             **Nirmala College of Arts and Science, Meloor, Chalakudy - 680 308, Thrissur, Kerala, India.**
+             This location is easily accessible from the town of Chalakudy, which is a prominent urban center in the Thrissur district. The campus is well connected
+             by road, making it convenient for students traveling from various nearby areas. For further details, you can visit the college's official website or 
+             directly contact their administration for directions."
+
+

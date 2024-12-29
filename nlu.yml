@@ -1,0 +1,204 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey there
+      - Good morning
+  
+  - intent: bot_challenge
+    examples: |
+      - are you a bot
+  
+  - intent: ask_college_arts_and_science
+    examples: |
+      - Tell me about your nirmala college of arts and science 
+      - What is the history of this nirmala college of arts and science 
+      - Give me information about the nirmala college of arts and science 
+      - define about nirmala college of arts and science
+      - where is nirmala college of arts and science
+
+  - intent:  ask_college_pharmacy
+    examples: |
+      - Tell me about your Nirmala College of pharmacy
+      - What is the history of this Nirmala College of pharmacy?
+      - Give me information about the Nirmala College of pharmacy
+      - define about Nirmala College of pharmacy
+      - where is Nirmala College of pharmacy
+
+  - intent: ask_college_institutions_info
+    examples: |
+      - Tell me about your nirmala institutions 
+      - What is the history of this nirmala college?
+      - Give me information about the nirmala college
+      - define about nirmala college 
+      - where is nirmala college
+
+  - intent: ask_college_engineering
+    examples: |
+      - Tell me about your Nirmala College of Engineering 
+      - What is the history of this Nirmala College of Engineering?
+      - Give me information about the  Nirmala College of Engineering
+      - define about  Nirmala College of Engineering
+      - where is  Nirmala College of Engineering
+  
+  - intent:  ask_college_polytechnic
+    examples: |
+      - Tell me about your nirmala college of polytechnic 
+      - What is the history of this nirmala college of polytechnic?
+      - Give me information about the  nirmala college of polytechnic
+      - define about  nirmala college of polytechnic
+      - where is  nirmala college of polytechnic
+    
+  - intent:  ask_college_fees
+    examples: |
+      - Tell me about fees structure of  nirmala institutions 
+      - What is the fees structure of  nirmala institutions?
+      - Give me information about the fees structure of  nirmala institutions
+      - define about  fees structure of  nirmala institutions
+       
+  - intent:   ask_college_staff
+    examples: |
+      - Tell me about staff's of  nirmala institutions 
+      - how is the staff's of  nirmala institutions?
+      - Give me information about staff's of  nirmala institutions
+      - define about  staff's  nirmala institutions
+
+  - intent:  ask_college_add_on_arts_and_science
+    examples: |
+      - Tell me about add-on courses of nirmala college of arts and science 
+      - how is the add-on courses of nirmala college of arts and science  of  nirmala institutions?
+      - Give me information about add-on courses of nirmala college of arts and science 
+      - define about  add-on courses of nirmala college of arts and science 
+
+  - intent: ask_college_add_on_pharmacy
+    examples: |
+      - Tell me about add-on courses of nirmala college pharmacy
+      - how is the add-on courses of nirmala college pharmacy?
+      - Give me information about add-on courses of nirmala college pharmacy
+      - define about  add-on courses of nirmala college college pharmacy
+
+  - intent: ask_college_add_on_engineering
+    examples: |
+      - Tell me about add-on courses of nirmala college engineering
+      - how is the add-on courses of nirmala college engineering?
+      - Give me information about add-on courses of nirmala college of engineering
+      - define about  add-on courses of nirmala college college of engineering
+
+  - intent: ask_college_add_on_polytechnic
+    examples: |
+      - Tell me about add-on courses of nirmala college of polytechnic
+      - how is the add-on courses of nirmala college of polytechnic?
+      - Give me information about add-on courses of nirmala college of polytechnic
+      - define about  add-on courses of nirmala college college of polytechnic
+
+  - intent: ask_college_faculty
+    examples: |
+      - Tell me about faculty of  nirmala institutions 
+      - how is the faculty of  nirmala institutions?
+      - Give me information about faculty of  nirmala institutions
+      - define about  faculty  nirmala institutions
+
+  - intent: ask_college_laboratory_facilities
+    examples: |
+      - Tell me about college laboratory facilities of nirmala institution
+      - how is the college laboratory facilities of nirmala institution
+      - Give me information about college laboratory facilities of nirmala institution
+      - define about college laboratory facilities of nirmala college institution
+
+  - intent: ask_college_laboratory_facilities
+    examples: |
+      - Tell me about college facilities of nirmala college institution
+      - how is the college facilities of nirmala college institution?
+      - Give me information about college facilities of nirmala institution
+      - define about college facilities of nirmala college college of institution
+  - intent: ask_college_extracurricular
+    examples: |
+      - Tell me about college extracurricular activities of nirmala college institution
+      - how is the college extracurricular activities of nirmala college institution
+      - Give me information about extracurricular activities of nirmala institution
+      - define about extracurricular activities of nirmala college institution
+
+  - intent: ask_college_career_opportunities
+    examples: |
+      - Tell me about college carrier opportunities of nirmala college institution
+      - how is the college carrier opportunities of nirmala collegeinstitution?
+      - Give me information about carrier opportunities of nirmala institution
+      - define about carrier opportunities of nirmala college college of institution
+
+  - intent: ask_college_admission_process
+    examples: |
+      - Tell me about college admission process of nirmala college institution
+      - how is the college admission process  of nirmala college institution?
+      - Give me information about admission process  of nirmala institution
+      - define about admission process  of nirmala college college institution
+
+  - intent: ask_college_project
+    examples: |
+      - Tell me about college projects of nirmala institution
+      - how is the college projects of nirmala college institution
+      - Give me information about projects of nirmala college of institution
+      - define about projects of nirmala college college of institution
+      
+  - intent: ask_college_iv
+    examples: |
+      - Tell me about college iv of nirmala college  institution
+      - how is the college iv of nirmala college institution
+      - Give me information about iv  of nirmala college institution
+      - define about iv of nirmala college college institution
+  - intent: ask_college_location
+    examples: |
+      - Tell me about college location of nirmala college institution
+      - how is the college location of nirmala college institution?
+      - Give me information aboutlocation  of nirmala institution
+      - define about location of nirmala college institution
+
+  - intent: ask_college_courses_arts_and_science
+    examples: |
+      - Tell me about collegecourses offered in nirmala college of arts and science
+      - how is the college location of nirmala college of arts and science?
+      - Give me information aboutlocation  of nirmala college of arts and science
+      - define about location of nirmala college college of arts and science
+
+  - intent: ask_college_courses_health_science
+    examples: |
+      - Tell me about collegecourses offered in nirmala college of health science
+      - how is the college location of nirmala college of health science?
+      - Give me information aboutlocation  of nirmala college of health science
+      - define about location of nirmala college college of health science
+
+  - intent: ask_college_courses_polytechnic
+    examples: |
+      - Tell me about collegecourses offered in nirmala college polytechnic
+      - how is the college location of nirmala college of polytechnic?
+      - Give me information aboutlocation  of nirmala college of polytechnic
+      - define about location of nirmala college college of polytechnic
+
+  - intent: ask_college_courses_engineering
+    examples: |
+      - Tell me about collegecourses offered in nirmala college of engineering
+      - how is the college location of nirmala college college of engineering?
+      - Give me information aboutlocation  of nirmala college  of engineering
+      - define about location of nirmala college of engineering
+
+  - intent: goodbye
+    examples: |
+      - Bye
+      - Goodbye
+      - See you later
+  
+
+
+
+
+  
+  
+  
+ 
+
+
+
+    
+      

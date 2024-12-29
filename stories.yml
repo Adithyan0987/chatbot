@@ -1,0 +1,114 @@
+version: "3.1"
+
+stories:
+  - story: greet and provide college info
+    steps:
+     - intent: greet
+     - action: utter_greet
+     - intent: ask_college_institutions_info
+     - action: utter_ask_college_institutions_info
+   
+  - story: ask about nirmala college of arts and science
+    steps:
+     - intent: ask_college_arts_and_science
+     - action: utter_ask_college_arts_and_science
+     - intent: ask_college_courses_arts_and_science
+     - action: utter_ask_college_courses_arts_and_science
+
+  - story: ask about nirmala college of pharmacy
+    steps:
+     - intent: ask_college_pharmacy
+     - action: utter_ask_college_pharmacy
+
+
+  - story: ask about nirmala college of engineering
+    steps:
+     - intent: ask_college_engineering
+     - action: utter_ask_college_engineering
+   
+
+  - story: ask about nirmala college of polytechnic
+    steps:
+     - intent: ask_college_polytechnic
+     - action: utter_ask_college_polytechnic
+ 
+
+  - story: ask about fees structure of nirmala college
+    steps:
+     - intent: ask_college_fees
+     - action: utter_ask_college_fees
+
+  - story: ask about the staff in nirmala college
+    steps:
+     - intent: ask_college_staff
+     - action: utter_ask_college_staff
+
+  - story: ask about addon courses in nirmala college of arts and science
+    steps:
+     - intent: ask_college_add_on_arts_and_science
+     - action: utter_ask_college_add_on_arts_and_science
+
+  - story: ask about addon courses in nirmala college of pharmacy
+    steps:
+     - intent: ask_college_add_on_pharmacy
+     - action: utter_ask_college_add_on_pharmacy
+
+  - story: ask about addon courses in nirmala college of engineering
+    steps:
+     - intent: ask_college_add_on_engineering
+     - action: utter_ask_college_add_on_engineering
+
+  - story: ask about addon courses in nirmala college of poyltechnic
+    steps:
+     - intent: ask_college_add_on_polytechnic
+     - action: utter_ask_college_add_on_polytechnic
+  
+  - story: ask college faculty
+    steps: 
+     - intent: ask_college_faculty
+     - action:  utter_ask_college_faculty
+
+  - story: ask about college laboratory facilities   
+    steps: 
+     - intent: ask_college_laboratory_facilities
+     - action: utter_ask_college_laboratory_facilities
+
+  - story: ask about college facilities
+    steps: 
+     - intent: ask_college_facilities
+     - action: utter_ask_college_facilities
+
+  - story: ask about college extracurricular
+    steps:
+     - intent: ask_college_extracurricular
+     - action: utter_ask_college_extracurricular
+
+  - story: ask about career opportunities
+    steps:
+     - intent: ask_college_career_opportunities
+     - action: utter_ask_college_career_opportunities
+
+  - story: ask about admission process
+    steps:
+     - intent: ask_college_admission_process
+     - action: utter_ask_college_admission_process
+
+  - story: ask about admission process
+    steps:
+     - intent: ask_college_project
+     - action: utter_ask_college_project
+
+  - story: ask about iv
+    steps:
+     - intent: ask_college_iv
+     - action: utter_ask_college_iv
+
+  - story: ask about college location
+    steps:
+     - intent: ask_college_location
+     - action: utter_ask_college_location
+
+  - story: goodbye
+    steps:
+     - intent: goodbye
+     - action: utter_goodbye
